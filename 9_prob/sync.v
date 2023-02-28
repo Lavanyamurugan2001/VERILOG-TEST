@@ -40,7 +40,7 @@ reg [1023:0]  Count = 0;
 
 reg [31:0] FIFO [0:7]; 
 
-reg [1023:0]  readCounter = 0, 
+  reg [9:0]  readCounter = 0, 
 
            writeCounter = 0; 
 
